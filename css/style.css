@@ -1,0 +1,32 @@
+body{
+    background-color: rgb(39, 131, 62);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: azure; 
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
+}
+h1{
+    text-align: center;
+}
+#erreur{
+    color: red;
+}
+.area_input{
+    
+    display: block;
+    width: 80%;
+}
+.area_input>input{
+    width: 80px;
+    height: 40px;
+    justify-content: space-between;
+    border-radius: 25px;
+    border: solid, 1rem, darkgreen;
+    text-align: center;
+    font-family: cursive;
+    font-size: x-large;
+
+}
